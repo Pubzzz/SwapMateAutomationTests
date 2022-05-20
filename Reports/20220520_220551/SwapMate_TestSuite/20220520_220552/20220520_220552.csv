@@ -1,0 +1,101 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SwapMate_TestSuite,Firefox 100.0,,,2022-05-20 22:05:54,2022-05-20 22:08:05,2m - 10.480s,PASSED
+,,,,,,,
+Test Cases/Admin Login_Logout,Firefox 100.0,,,2022-05-20 22:05:55,2022-05-20 22:06:07,12.758s,PASSED
+"openBrowser("""")",Firefox 100.0,,,2022-05-20 22:05:55,2022-05-20 22:05:59,3.972s,PASSED
+"navigateToUrl(""http://localhost:4200/site"")",Firefox 100.0,,,2022-05-20 22:05:59,2022-05-20 22:06:01,1.926s,PASSED
+"click(findTestObject(""Object Repository/Admin_Login_Logout/Page_SwapMate/i_Products_fas fa-user-cog""))",Firefox 100.0,,,2022-05-20 22:06:01,2022-05-20 22:06:03,2.442s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Admin_Login_Logout/Page_SwapMate/h3_Admin Login Panel""), 0)",Firefox 100.0,,,2022-05-20 22:06:03,2022-05-20 22:06:04,0.493s,PASSED
+"setText(findTestObject(""Object Repository/Admin_Login_Logout/Page_SwapMate/input_Email address_email""), ""Admin@gmail.com"")",Firefox 100.0,,,2022-05-20 22:06:04,2022-05-20 22:06:04,0.535s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin_Login_Logout/Page_SwapMate/input_Password_password""), ""/5S6MFFLcE4mlsixtc6/Tg=="")",Firefox 100.0,,,2022-05-20 22:06:04,2022-05-20 22:06:05,0.337s,PASSED
+"click(findTestObject(""Object Repository/Admin_Login_Logout/Page_SwapMate/button_Submit""))",Firefox 100.0,,,2022-05-20 22:06:05,2022-05-20 22:06:05,0.505s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Admin_Login_Logout/Page_SwapMate/a_SwapMate Admin""), 0)",Firefox 100.0,,,2022-05-20 22:06:05,2022-05-20 22:06:07,2.222s,PASSED
+,,,,,,,
+Test Cases/Admin Page Navigation,Firefox 100.0,,,2022-05-20 22:06:07,2022-05-20 22:06:39,31.280s,PASSED
+"click(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Dashboard""))",Firefox 100.0,,,2022-05-20 22:06:08,2022-05-20 22:06:08,0.755s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Dashboard""), 0)",Firefox 100.0,,,2022-05-20 22:06:08,2022-05-20 22:06:09,0.780s,PASSED
+"click(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Showroom New""))",Firefox 100.0,,,2022-05-20 22:06:09,2022-05-20 22:06:12,2.410s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Showroom""), 0)",Firefox 100.0,,,2022-05-20 22:06:12,2022-05-20 22:06:12,0.807s,PASSED
+"click(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/a_My Calendar 6""))",Firefox 100.0,,,2022-05-20 22:06:12,2022-05-20 22:06:13,0.771s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Appointments""), 0)",Firefox 100.0,,,2022-05-20 22:06:13,2022-05-20 22:06:14,0.802s,PASSED
+"click(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left""))",Firefox 100.0,,,2022-05-20 22:06:14,2022-05-20 22:06:14,0.484s,PASSED
+"click(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Stock""))",Firefox 100.0,,,2022-05-20 22:06:14,2022-05-20 22:06:15,0.907s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Manage Current Stock""), 0)",Firefox 100.0,,,2022-05-20 22:06:15,2022-05-20 22:06:26,10.576s,PASSED
+"click(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left""))",Firefox 100.0,,,2022-05-20 22:06:26,2022-05-20 22:06:26,0.479s,PASSED
+"click(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Donations""))",Firefox 100.0,,,2022-05-20 22:06:26,2022-05-20 22:06:27,0.853s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Donations List""), 0)",Firefox 100.0,,,2022-05-20 22:06:27,2022-05-20 22:06:29,1.877s,PASSED
+"click(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left""))",Firefox 100.0,,,2022-05-20 22:06:29,2022-05-20 22:06:30,0.468s,PASSED
+"click(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Showroom""))",Firefox 100.0,,,2022-05-20 22:06:30,2022-05-20 22:06:30,0.888s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Items In Showroom""), 0)",Firefox 100.0,,,2022-05-20 22:06:30,2022-05-20 22:06:34,3.864s,PASSED
+"click(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Orders""))",Firefox 100.0,,,2022-05-20 22:06:34,2022-05-20 22:06:35,0.558s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Ongoing Orders""), 0)",Firefox 100.0,,,2022-05-20 22:06:35,2022-05-20 22:06:36,0.800s,PASSED
+"click(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Customers""))",Firefox 100.0,,,2022-05-20 22:06:36,2022-05-20 22:06:36,0.518s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Customers""), 0)",Firefox 100.0,,,2022-05-20 22:06:36,2022-05-20 22:06:39,2.407s,PASSED
+,,,,,,,
+Test Cases/Add stock items,Firefox 100.0,,,2022-05-20 22:06:39,2022-05-20 22:07:55,1m - 16.123s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/i_New_right fas fa-angle-left_1""))",Firefox 100.0,,,2022-05-20 22:06:39,2022-05-20 22:06:39,0.478s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/i_New_right fas fa-angle-left_1""))",Firefox 100.0,,,2022-05-20 22:06:39,2022-05-20 22:06:40,0.790s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/a_Manage Stock""))",Firefox 100.0,,,2022-05-20 22:06:40,2022-05-20 22:06:41,0.919s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Add stock/Page_SwapMate/h4_Manage Current Stock""), 0)",Firefox 100.0,,,2022-05-20 22:06:41,2022-05-20 22:06:46,5.234s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/button_Add new Item""))",Firefox 100.0,,,2022-05-20 22:06:46,2022-05-20 22:06:47,0.479s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Add stock/Page_SwapMate/h5_Enter Stock Item Details""), 0)",Firefox 100.0,,,2022-05-20 22:06:47,2022-05-20 22:06:47,0.367s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral""), ""Ladies' Wear"", true)",Firefox 100.0,,,2022-05-20 22:06:47,2022-05-20 22:06:48,0.984s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_Please select Category firstBridal W_fb86c9""), ""Ladies' Skirts"", true)",Firefox 100.0,,,2022-05-20 22:06:48,2022-05-20 22:06:49,1.144s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/p_Rejected""))",Firefox 100.0,,,2022-05-20 22:06:49,2022-05-20 22:06:50,0.475s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL""), ""XL"", true)",Firefox 100.0,,,2022-05-20 22:06:50,2022-05-20 22:06:51,1.016s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used""), ""Used in Good Condition"", true)",Firefox 100.0,,,2022-05-20 22:06:51,2022-05-20 22:06:52,0.941s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available""), ""Available"", true)",Firefox 100.0,,,2022-05-20 22:06:52,2022-05-20 22:06:53,0.937s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1""), ""Available"", true)",Firefox 100.0,,,2022-05-20 22:06:53,2022-05-20 22:06:54,0.925s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded""), ""Well Known"", true)",Firefox 100.0,,,2022-05-20 22:06:54,2022-05-20 22:06:54,0.939s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/button_Add to Stock""))",Firefox 100.0,,,2022-05-20 22:06:54,2022-05-20 22:06:55,0.475s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Add stock/Page_SwapMate/div_Close    Successfull Added to Stock""), 0)",Firefox 100.0,,,2022-05-20 22:06:55,2022-05-20 22:06:55,0.252s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Add stock/Page_SwapMate/h5_Customer Swap Information""), 0)",Firefox 100.0,,,2022-05-20 22:06:55,2022-05-20 22:06:55,0.250s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/td_540""))",Firefox 100.0,,,2022-05-20 22:06:55,2022-05-20 22:06:56,0.463s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/p_Total Points  540""))",Firefox 100.0,,,2022-05-20 22:06:56,2022-05-20 22:06:56,0.460s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/button_Reset""))",Firefox 100.0,,,2022-05-20 22:06:56,2022-05-20 22:06:57,0.465s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral""), ""Mens' Wear"", true)",Firefox 100.0,,,2022-05-20 22:06:57,2022-05-20 22:07:03,5.808s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_Please select Category firstGrooms W_2a996e""), ""Mens' Denims"", true)",Firefox 100.0,,,2022-05-20 22:07:03,2022-05-20 22:07:04,1.008s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL""), ""3XL"", true)",Firefox 100.0,,,2022-05-20 22:07:04,2022-05-20 22:07:05,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used""), ""Used in Good Condition"", true)",Firefox 100.0,,,2022-05-20 22:07:05,2022-05-20 22:07:05,0.724s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available""), ""Available"", true)",Firefox 100.0,,,2022-05-20 22:07:05,2022-05-20 22:07:06,0.715s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1""), ""Not Available"", true)",Firefox 100.0,,,2022-05-20 22:07:06,2022-05-20 22:07:07,0.914s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded""), ""Moderate"", true)",Firefox 100.0,,,2022-05-20 22:07:07,2022-05-20 22:07:08,0.947s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/button_Add to Stock""))",Firefox 100.0,,,2022-05-20 22:07:08,2022-05-20 22:07:08,0.467s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/button_Reset""))",Firefox 100.0,,,2022-05-20 22:07:08,2022-05-20 22:07:09,0.461s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral""), ""Kids' Wear"", true)",Firefox 100.0,,,2022-05-20 22:07:09,2022-05-20 22:07:11,2.240s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_Please select Category firstFrocksKi_76afd3""), ""Frocks"", true)",Firefox 100.0,,,2022-05-20 22:07:11,2022-05-20 22:07:23,12.139s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL""), ""M"", true)",Firefox 100.0,,,2022-05-20 22:07:23,2022-05-20 22:07:27,3.361s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used""), ""Not Used"", true)",Firefox 100.0,,,2022-05-20 22:07:27,2022-05-20 22:07:28,0.929s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available""), ""Available"", true)",Firefox 100.0,,,2022-05-20 22:07:28,2022-05-20 22:07:28,0.706s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1""), ""Available"", true)",Firefox 100.0,,,2022-05-20 22:07:28,2022-05-20 22:07:29,0.908s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded""), ""Moderate"", true)",Firefox 100.0,,,2022-05-20 22:07:29,2022-05-20 22:07:30,0.720s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/button_Add to Stock""))",Firefox 100.0,,,2022-05-20 22:07:30,2022-05-20 22:07:30,0.469s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/button_Reset""))",Firefox 100.0,,,2022-05-20 22:07:30,2022-05-20 22:07:31,0.466s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral""), ""General"", true)",Firefox 100.0,,,2022-05-20 22:07:31,2022-05-20 22:07:32,1.255s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_Please select Category firstTravelli_0767cc""), ""Footware"", true)",Firefox 100.0,,,2022-05-20 22:07:32,2022-05-20 22:07:39,6.872s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL""), ""XL"", true)",Firefox 100.0,,,2022-05-20 22:07:39,2022-05-20 22:07:40,0.982s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used""), ""Used in Good Condition"", true)",Firefox 100.0,,,2022-05-20 22:07:40,2022-05-20 22:07:41,0.926s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available""), ""Available"", true)",Firefox 100.0,,,2022-05-20 22:07:41,2022-05-20 22:07:42,0.697s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1""), ""Not Available"", true)",Firefox 100.0,,,2022-05-20 22:07:42,2022-05-20 22:07:42,0.914s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded""), ""Unbranded"", true)",Firefox 100.0,,,2022-05-20 22:07:42,2022-05-20 22:07:43,0.937s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/button_Add to Stock""))",Firefox 100.0,,,2022-05-20 22:07:43,2022-05-20 22:07:44,0.468s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/p_Total Points  1392""))",Firefox 100.0,,,2022-05-20 22:07:44,2022-05-20 22:07:44,0.456s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/span_""))",Firefox 100.0,,,2022-05-20 22:07:44,2022-05-20 22:07:45,0.464s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/td_Ladies Skirts""))",Firefox 100.0,,,2022-05-20 22:07:45,2022-05-20 22:07:46,0.778s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/td_540""))",Firefox 100.0,,,2022-05-20 22:07:46,2022-05-20 22:07:52,6.416s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/td_Mens Denims""))",Firefox 100.0,,,2022-05-20 22:07:52,2022-05-20 22:07:52,0.453s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/td_288""))",Firefox 100.0,,,2022-05-20 22:07:52,2022-05-20 22:07:53,0.453s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/td_Frocks""))",Firefox 100.0,,,2022-05-20 22:07:53,2022-05-20 22:07:53,0.452s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/td_432""))",Firefox 100.0,,,2022-05-20 22:07:53,2022-05-20 22:07:54,0.453s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/td_Footware""))",Firefox 100.0,,,2022-05-20 22:07:54,2022-05-20 22:07:54,0.459s,PASSED
+"click(findTestObject(""Object Repository/Add stock/Page_SwapMate/td_132""))",Firefox 100.0,,,2022-05-20 22:07:54,2022-05-20 22:07:55,0.453s,PASSED
+,,,,,,,
+Test Cases/Search stock items,Firefox 100.0,,,2022-05-20 22:07:55,2022-05-20 22:08:05,10.034s,PASSED
+"click(findTestObject(""Object Repository/Stock_Search/Page_SwapMate/i_New_right fas fa-angle-left""))",Firefox 100.0,,,2022-05-20 22:07:55,2022-05-20 22:07:55,0.464s,PASSED
+"click(findTestObject(""Object Repository/Stock_Search/Page_SwapMate/i_New_right fas fa-angle-left_1""))",Firefox 100.0,,,2022-05-20 22:07:55,2022-05-20 22:07:56,0.765s,PASSED
+"click(findTestObject(""Object Repository/Stock_Search/Page_SwapMate/a_Manage Stock""))",Firefox 100.0,,,2022-05-20 22:07:56,2022-05-20 22:07:57,0.840s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Stock_Search/Page_SwapMate/label_Search""), 0)",Firefox 100.0,,,2022-05-20 22:07:57,2022-05-20 22:08:03,6.109s,PASSED
+"setText(findTestObject(""Object Repository/Stock_Search/Page_SwapMate/input_Search_form-control form-control-sm""), ""XL"")",Firefox 100.0,,,2022-05-20 22:08:03,2022-05-20 22:08:04,0.487s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Stock_Search/Page_SwapMate/div_Showing 1 to 5 of 5 entries (filtered f_9f68b9_1""), 0)",Firefox 100.0,,,2022-05-20 22:08:04,2022-05-20 22:08:04,0.452s,PASSED
+"setText(findTestObject(""Object Repository/Stock_Search/Page_SwapMate/input_Search_form-control form-control-sm""), """")",Firefox 100.0,,,2022-05-20 22:08:04,2022-05-20 22:08:05,0.471s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Stock_Search/Page_SwapMate/div_Showing 1 to 11 of 11 entries""), 0)",Firefox 100.0,,,2022-05-20 22:08:05,2022-05-20 22:08:05,0.252s,PASSED

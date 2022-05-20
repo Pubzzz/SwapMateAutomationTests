@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Please select Category firstGrooms W_2a996e</name>
+   <tag></tag>
+   <elementGuidId>9eb9c729-78da-4492-a565-fcc3afb72982</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Type</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='Type']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Type</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>type</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>box ng-dirty ng-valid ng-touched</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>type</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-model</name>
+      <type>Main</type>
+      <value>Party Frocks</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please select Category firstGroom's WearMens' TshirtsMens' ShirtsMens' Office TrousersMens' ShortsMens' DenimsSarongsMens' Night DressesWalletsBlassersMens' Ties/Bows</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Type&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='Type']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='staticBackdrop']/div/div/div[2]/div/form/div[2]/div[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'Type' and @name = 'type' and (text() = concat(&quot;Please select Category firstGroom&quot; , &quot;'&quot; , &quot;s WearMens&quot; , &quot;'&quot; , &quot; TshirtsMens&quot; , &quot;'&quot; , &quot; ShirtsMens&quot; , &quot;'&quot; , &quot; Office TrousersMens&quot; , &quot;'&quot; , &quot; ShortsMens&quot; , &quot;'&quot; , &quot; DenimsSarongsMens&quot; , &quot;'&quot; , &quot; Night DressesWalletsBlassersMens&quot; , &quot;'&quot; , &quot; Ties/Bows&quot;) or . = concat(&quot;Please select Category firstGroom&quot; , &quot;'&quot; , &quot;s WearMens&quot; , &quot;'&quot; , &quot; TshirtsMens&quot; , &quot;'&quot; , &quot; ShirtsMens&quot; , &quot;'&quot; , &quot; Office TrousersMens&quot; , &quot;'&quot; , &quot; ShortsMens&quot; , &quot;'&quot; , &quot; DenimsSarongsMens&quot; , &quot;'&quot; , &quot; Night DressesWalletsBlassersMens&quot; , &quot;'&quot; , &quot; Ties/Bows&quot;))]</value>
+   </webElementXpaths>
+</WebElementEntity>
