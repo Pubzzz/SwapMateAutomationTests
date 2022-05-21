@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SwapMate_Mobile_TestSuite,,,,2022-05-21 19:32:17,2022-05-21 19:32:59,41.889s,PASSED
+,,,,,,,
+Test Cases/Customer/Login,,,,2022-05-21 19:32:17,2022-05-21 19:32:54,36.769s,PASSED
+"startApplication(""C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk"", true)",,,,2022-05-21 19:32:17,2022-05-21 19:32:35,17.198s,PASSED
+"tapAndHold(findTestObject(""Object Repository/Customer/Login/android.widget.Button (1)""), 0, 0)",,,,2022-05-21 19:32:35,2022-05-21 19:32:37,2.741s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Login/android.widget.EditText - Username""), 0)",,,,2022-05-21 19:32:37,2022-05-21 19:32:38,0.781s,PASSED
+"setText(findTestObject(""Customer/Login/android.widget.EditText - Username""), ""pubzzz2002@gmail.com"", 0)",,,,2022-05-21 19:32:38,2022-05-21 19:32:39,0.922s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Login/android.widget.EditText - Password""), 0)",,,,2022-05-21 19:32:39,2022-05-21 19:32:40,0.730s,PASSED
+"setText(findTestObject(""Customer/Login/android.widget.EditText - Password""), ""123456"", 0)",,,,2022-05-21 19:32:40,2022-05-21 19:32:41,0.707s,PASSED
+hideKeyboard(),,,,2022-05-21 19:32:41,2022-05-21 19:32:43,2.043s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Login/android.widget.Button (2)""), 0, STOP_ON_FAILURE)",,,,2022-05-21 19:32:43,2022-05-21 19:32:44,1.372s,PASSED
+sleep(10000),,,,2022-05-21 19:32:44,2022-05-21 19:32:54,10.002s,PASSED
+,,,,,,,
+Test Cases/Customer/Logout,,,,2022-05-21 19:32:54,2022-05-21 19:32:59,4.914s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Logout/android.widget.Button""), 0)",,,,2022-05-21 19:32:54,2022-05-21 19:32:55,1.103s,PASSED
+"tapAndHold(findTestObject(""Object Repository/Customer/Logout/android.view.View""), 0, 0)",,,,2022-05-21 19:32:55,2022-05-21 19:32:58,2.630s,PASSED
+closeApplication(),,,,2022-05-21 19:32:58,2022-05-21 19:32:59,0.972s,PASSED

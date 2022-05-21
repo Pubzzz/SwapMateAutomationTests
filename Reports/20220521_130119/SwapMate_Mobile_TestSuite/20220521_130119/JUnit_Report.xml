@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SwapMate_Mobile_TestSuite" time="111.303" tests="5" failures="1" errors="0">
+   <testsuite name="SwapMate_Mobile_TestSuite" tests="5" failures="1" errors="0" time="111.303" skipped="0" timestamp="2022-05-21 13:01:21" hostname="prabh - DESKTOP-DI7ILBH" id="Test Suites/SwapMate_Mobile_TestSuite">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\prabh\\Documents\\GitHub\\SwapMateAutomation\\Reports\\20220521_130119\\SwapMate_Mobile_TestSuite\\20220521_130119"/>
+         <property name="logFiles" value="C:\\Users\\prabh\\Documents\\GitHub\\SwapMateAutomation\\Reports\\20220521_130119\\SwapMate_Mobile_TestSuite\\20220521_130119\\appium.log, C:\\Users\\prabh\\Documents\\GitHub\\SwapMateAutomation\\Reports\\20220521_130119\\SwapMate_Mobile_TestSuite\\20220521_130119\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\prabh\\Documents\\GitHub\\SwapMateAutomation\\Reports\\20220521_130119\\SwapMate_Mobile_TestSuite\\20220521_130119\\1653118392585.png"/>
+         <property name="hostName" value="prabh - DESKTOP-DI7ILBH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Customer/Registration" time="27.318" classname="Test Cases/Customer/Registration" status="PASSED">
+         <system-out><![CDATA[2022-05-21 13:01:21 - [TEST_CASE][PASSED] - Test Cases/Customer/Registration: Test Cases/Customer/Registration
+
+2022-05-21 13:01:22 - [TEST_STEP][PASSED] - startApplication("C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk", true): Started app at: 'C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk'
+
+2022-05-21 13:01:23 - [MESSAGE][INFO] - Appium server started on port 61,364
+
+2022-05-21 13:01:36 - [MESSAGE][PASSED] - Started app at: 'C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk'
+
+2022-05-21 13:01:36 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Register/android.widget.Button"), 0, 0): Tapped and held on element 'Object Repository/Register/android.widget.Button' with duration (default)
+
+2022-05-21 13:01:36 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-05-21 13:01:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:38 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Register/android.widget.Button' with duration (default)
+
+2022-05-21 13:01:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/android.widget.EditText - E-mail Address (1)"), 0): Tapped on element 'Object Repository/Register/android.widget.EditText - E-mail Address (1)'
+
+2022-05-21 13:01:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - E-mail Address (1)'
+
+2022-05-21 13:01:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/android.widget.EditText - E-mail Address"), "testing@gmail.com", 0): Text 'testing@gmail.com' has been set to element 'Object Repository/Register/android.widget.EditText - E-mail Address'
+
+2022-05-21 13:01:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:40 - [MESSAGE][PASSED] - Text 'testing@gmail.com' has been set to element 'Object Repository/Register/android.widget.EditText - E-mail Address'
+
+2022-05-21 13:01:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/android.widget.EditText - Password (1)"), 0): Tapped on element 'Object Repository/Register/android.widget.EditText - Password (1)'
+
+2022-05-21 13:01:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - Password (1)'
+
+2022-05-21 13:01:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/android.widget.EditText - Password"), "123456", 0): Text '123456' has been set to element 'Object Repository/Register/android.widget.EditText - Password'
+
+2022-05-21 13:01:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:42 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Register/android.widget.EditText - Password'
+
+2022-05-21 13:01:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/android.widget.EditText - Re-enter Password (1)"), 0): Tapped on element 'Object Repository/Register/android.widget.EditText - Re-enter Password (1)'
+
+2022-05-21 13:01:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - Re-enter Password (1)'
+
+2022-05-21 13:01:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/android.widget.EditText - Re-enter Password"), "123456", 0): Text '123456' has been set to element 'Object Repository/Register/android.widget.EditText - Re-enter Password'
+
+2022-05-21 13:01:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:43 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Register/android.widget.EditText - Re-enter Password'
+
+2022-05-21 13:01:43 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-05-21 13:01:45 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-05-21 13:01:45 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Customer/Register/android.widget.Button (1)"), 0, 0): Tapped and held on element 'Object Repository/Customer/Register/android.widget.Button (1)' with duration (default)
+
+2022-05-21 13:01:45 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-05-21 13:01:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:49 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Customer/Register/android.widget.Button (1)' with duration (default)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/Update Profile Details" time="22.906" classname="Test Cases/Customer/Update Profile Details" status="PASSED">
+         <system-out><![CDATA[2022-05-21 13:01:49 - [TEST_CASE][PASSED] - Test Cases/Customer/Update Profile Details: Test Cases/Customer/Update Profile Details
+
+2022-05-21 13:01:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Update Profile/android.widget.EditText - First Name"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Customer/Update Profile/android.widget.EditText - First Name'
+
+2022-05-21 13:01:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Update Profile/android.widget.EditText - First Name'
+
+2022-05-21 13:01:52 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Update Profile/android.widget.EditText - First Name"), "TestingFirstname", 0): Text 'TestingFirstname' has been set to element 'Object Repository/Customer/Update Profile/android.widget.EditText - First Name'
+
+2022-05-21 13:01:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:53 - [MESSAGE][PASSED] - Text 'TestingFirstname' has been set to element 'Object Repository/Customer/Update Profile/android.widget.EditText - First Name'
+
+2022-05-21 13:01:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Update Profile/android.widget.EditText - Last Name"), 0): Tapped on element 'Object Repository/Customer/Update Profile/android.widget.EditText - Last Name'
+
+2022-05-21 13:01:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Update Profile/android.widget.EditText - Last Name'
+
+2022-05-21 13:01:54 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Update Profile/android.widget.EditText - Last Name"), "TestingLastname", 0): Text 'TestingLastname' has been set to element 'Object Repository/Customer/Update Profile/android.widget.EditText - Last Name'
+
+2022-05-21 13:01:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:54 - [MESSAGE][PASSED] - Text 'TestingLastname' has been set to element 'Object Repository/Customer/Update Profile/android.widget.EditText - Last Name'
+
+2022-05-21 13:01:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Update Profile/android.widget.EditText - Address"), 0): Tapped on element 'Object Repository/Customer/Update Profile/android.widget.EditText - Address'
+
+2022-05-21 13:01:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Update Profile/android.widget.EditText - Address'
+
+2022-05-21 13:01:55 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Update Profile/android.widget.EditText - Address"), "18/7, Testing Street, QA", 0): Text '18/7, Testing Street, QA' has been set to element 'Object Repository/Customer/Update Profile/android.widget.EditText - Address'
+
+2022-05-21 13:01:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:56 - [MESSAGE][PASSED] - Text '18/7, Testing Street, QA' has been set to element 'Object Repository/Customer/Update Profile/android.widget.EditText - Address'
+
+2022-05-21 13:01:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Update Profile/android.widget.EditText - Contact Number"), 0): Tapped on element 'Object Repository/Customer/Update Profile/android.widget.EditText - Contact Number'
+
+2022-05-21 13:01:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Update Profile/android.widget.EditText - Contact Number'
+
+2022-05-21 13:01:57 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Update Profile/android.widget.EditText - Contact Number"), "0745678932", 0): Text '0745678932' has been set to element 'Object Repository/Customer/Update Profile/android.widget.EditText - Contact Number'
+
+2022-05-21 13:01:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:58 - [MESSAGE][PASSED] - Text '0745678932' has been set to element 'Object Repository/Customer/Update Profile/android.widget.EditText - Contact Number'
+
+2022-05-21 13:01:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Update Profile/android.widget.EditText - Nic"), 0): Tapped on element 'Object Repository/Customer/Update Profile/android.widget.EditText - Nic'
+
+2022-05-21 13:01:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Update Profile/android.widget.EditText - Nic'
+
+2022-05-21 13:01:59 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Update Profile/android.widget.EditText - Nic"), "200286798484", 0): Text '200286798484' has been set to element 'Object Repository/Customer/Update Profile/android.widget.EditText - Nic'
+
+2022-05-21 13:01:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:01:59 - [MESSAGE][PASSED] - Text '200286798484' has been set to element 'Object Repository/Customer/Update Profile/android.widget.EditText - Nic'
+
+2022-05-21 13:01:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Update Profile/android.widget.EditText - Age"), 0): Tapped on element 'Object Repository/Customer/Update Profile/android.widget.EditText - Age'
+
+2022-05-21 13:01:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Update Profile/android.widget.EditText - Age'
+
+2022-05-21 13:02:01 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Update Profile/android.widget.EditText - Age"), "26", 0): Text '26' has been set to element 'Object Repository/Customer/Update Profile/android.widget.EditText - Age'
+
+2022-05-21 13:02:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:01 - [MESSAGE][PASSED] - Text '26' has been set to element 'Object Repository/Customer/Update Profile/android.widget.EditText - Age'
+
+2022-05-21 13:02:01 - [TEST_STEP][PASSED] - tap(findTestObject("Customer/Update Profile/android.view.View (2)"), 0): Tapped on element 'Object Repository/Customer/Update Profile/android.view.View (2)'
+
+2022-05-21 13:02:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Update Profile/android.view.View (2)'
+
+2022-05-21 13:02:02 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Customer/Update Profile/android.view.View (2)"), 0, 0): Tapped and held on element 'Object Repository/Customer/Update Profile/android.view.View (2)' with duration (default)
+
+2022-05-21 13:02:02 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-05-21 13:02:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:05 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Customer/Update Profile/android.view.View (2)' with duration (default)
+
+2022-05-21 13:02:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Update Profile/android.widget.Button (1)"), 0): Tapped on element 'Object Repository/Customer/Update Profile/android.widget.Button (1)'
+
+2022-05-21 13:02:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Update Profile/android.widget.Button (1)'
+
+2022-05-21 13:02:06 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/Customer/Update Profile/android.view.View (3)"), 0, 0): Tapped and held on element 'Object Repository/Customer/Update Profile/android.view.View (3)' with duration (default)
+
+2022-05-21 13:02:06 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-05-21 13:02:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:09 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Customer/Update Profile/android.view.View (3)' with duration (default)
+
+2022-05-21 13:02:09 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/Customer/Update Profile/android.widget.Button (2)"), 0, 0): Tapped and held on element 'Object Repository/Customer/Update Profile/android.widget.Button (2)' with duration (default)
+
+2022-05-21 13:02:09 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-05-21 13:02:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:12 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Customer/Update Profile/android.widget.Button (2)' with duration (default)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/Logout" time="5.015" classname="Test Cases/Customer/Logout" status="PASSED">
+         <system-out><![CDATA[2022-05-21 13:02:12 - [TEST_CASE][PASSED] - Test Cases/Customer/Logout: Test Cases/Customer/Logout
+
+2022-05-21 13:02:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Logout/android.widget.Button"), 0): Tapped on element 'Object Repository/Customer/Logout/android.widget.Button'
+
+2022-05-21 13:02:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Logout/android.widget.Button'
+
+2022-05-21 13:02:13 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/Customer/Logout/android.view.View"), 0, 0): Tapped and held on element 'Object Repository/Customer/Logout/android.view.View' with duration (default)
+
+2022-05-21 13:02:13 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-05-21 13:02:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:16 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Customer/Logout/android.view.View' with duration (default)
+
+2022-05-21 13:02:16 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-21 13:02:17 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/Login" time="24.253" classname="Test Cases/Customer/Login" status="PASSED">
+         <system-out><![CDATA[2022-05-21 13:02:17 - [TEST_CASE][PASSED] - Test Cases/Customer/Login: Test Cases/Customer/Login
+
+2022-05-21 13:02:17 - [TEST_STEP][PASSED] - startApplication("C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk", true): Started app at: 'C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk'
+
+2022-05-21 13:02:18 - [MESSAGE][INFO] - Appium server started on port 61,555
+
+2022-05-21 13:02:30 - [MESSAGE][PASSED] - Started app at: 'C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk'
+
+2022-05-21 13:02:30 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/Customer/Login/android.widget.Button (1)"), 0, 0): Tapped and held on element 'Object Repository/Customer/Login/android.widget.Button (1)' with duration (default)
+
+2022-05-21 13:02:30 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-05-21 13:02:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:33 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Customer/Login/android.widget.Button (1)' with duration (default)
+
+2022-05-21 13:02:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Login/android.widget.EditText - Username"), 0): Tapped on element 'Object Repository/Customer/Login/android.widget.EditText - Username'
+
+2022-05-21 13:02:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Login/android.widget.EditText - Username'
+
+2022-05-21 13:02:34 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Login/android.widget.EditText - Username"), "pubzzz2002@gmail.com", 0): Text 'pubzzz2002@gmail.com' has been set to element 'Object Repository/Customer/Login/android.widget.EditText - Username'
+
+2022-05-21 13:02:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:35 - [MESSAGE][PASSED] - Text 'pubzzz2002@gmail.com' has been set to element 'Object Repository/Customer/Login/android.widget.EditText - Username'
+
+2022-05-21 13:02:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/Customer/Login/android.widget.EditText - Password'
+
+2022-05-21 13:02:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Login/android.widget.EditText - Password'
+
+2022-05-21 13:02:35 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Login/android.widget.EditText - Password"), "123456", 0): Text '123456' has been set to element 'Object Repository/Customer/Login/android.widget.EditText - Password'
+
+2022-05-21 13:02:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:36 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Customer/Login/android.widget.EditText - Password'
+
+2022-05-21 13:02:36 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-05-21 13:02:38 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-05-21 13:02:38 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/Customer/Login/android.widget.Button (2)"), 0, 0): Tapped and held on element 'Object Repository/Customer/Login/android.widget.Button (2)' with duration (default)
+
+2022-05-21 13:02:38 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-05-21 13:02:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:41 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Customer/Login/android.widget.Button (2)' with duration (default)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/Logout" time="31.586" classname="Test Cases/Customer/Logout" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Customer/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Customer/Logout/android.view.View not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1436)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$0.call(Unknown Source)
+	at Logout.run(Logout:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653118279584.run(TempTestSuite1653118279584.groovy:36)
+"/>
+         <system-out><![CDATA[2022-05-21 13:02:41 - [TEST_CASE][FAILED] - Test Cases/Customer/Logout: Test Cases/Customer/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Customer/Logout/android.view.View not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1436)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$0.call(Unknown Source)
+	at Logout.run(Logout:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653118279584.run(TempTestSuite1653118279584.groovy:36)
+
+
+2022-05-21 13:02:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Logout/android.widget.Button"), 0): Tapped on element 'Object Repository/Customer/Logout/android.widget.Button'
+
+2022-05-21 13:02:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:02:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Logout/android.widget.Button'
+
+2022-05-21 13:02:42 - [TEST_STEP][FAILED] - tapAndHold(findTestObject("Object Repository/Customer/Logout/android.view.View"), 0, 0): Failed to tap and hold on element 'Object Repository/Customer/Logout/android.view.View' with duration (default) (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Customer/Logout/android.view.View not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1436)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$0.call(Unknown Source)
+	at Logout.run(Logout:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653118279584.run(TempTestSuite1653118279584.groovy:36)
+)
+
+2022-05-21 13:02:42 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-05-21 13:02:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 13:03:12 - [MESSAGE][FAILED] - Failed to tap and hold on element 'Object Repository/Customer/Logout/android.view.View' with duration (default) (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Customer/Logout/android.view.View not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1436)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$0.call(Unknown Source)
+	at Logout.run(Logout:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653118279584.run(TempTestSuite1653118279584.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\prabh\\Documents\\GitHub\\SwapMateAutomation\\Reports\\20220521_130119\\SwapMate_Mobile_TestSuite\\20220521_130119\\1653118392585.png]]]]></system-out>
+         <system-err><![CDATA[2022-05-21 13:02:41 - [TEST_CASE][FAILED] - Test Cases/Customer/Logout: Test Cases/Customer/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Customer/Logout/android.view.View not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1436)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$0.call(Unknown Source)
+	at Logout.run(Logout:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653118279584.run(TempTestSuite1653118279584.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-21 13:01:21 - [TEST_SUITE][FAILED] - SwapMate_Mobile_TestSuite: Test Cases/Customer/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Customer/Logout/android.view.View not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1436)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$0.call(Unknown Source)
+	at Logout.run(Logout:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653118279584.run(TempTestSuite1653118279584.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-05-21 13:01:21 - [TEST_SUITE][FAILED] - SwapMate_Mobile_TestSuite: Test Cases/Customer/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Customer/Logout/android.view.View not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1436)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$0.call(Unknown Source)
+	at Logout.run(Logout:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653118279584.run(TempTestSuite1653118279584.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

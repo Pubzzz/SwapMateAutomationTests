@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SwapMate_Mobile_TestSuite" time="41.889" tests="2" failures="0" errors="0">
+   <testsuite name="SwapMate_Mobile_TestSuite" tests="2" failures="0" errors="0" time="41.889" skipped="0" timestamp="2022-05-21 19:32:17" hostname="prabh - DESKTOP-DI7ILBH" id="Test Suites/SwapMate_Mobile_TestSuite">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\prabh\\Documents\\GitHub\\SwapMateAutomation\\Reports\\20220521_193215\\SwapMate_Mobile_TestSuite\\20220521_193215"/>
+         <property name="logFiles" value="C:\\Users\\prabh\\Documents\\GitHub\\SwapMateAutomation\\Reports\\20220521_193215\\SwapMate_Mobile_TestSuite\\20220521_193215\\appium.log, C:\\Users\\prabh\\Documents\\GitHub\\SwapMateAutomation\\Reports\\20220521_193215\\SwapMate_Mobile_TestSuite\\20220521_193215\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="prabh - DESKTOP-DI7ILBH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Customer/Login" time="36.769" classname="Test Cases/Customer/Login" status="PASSED">
+         <system-out><![CDATA[2022-05-21 19:32:17 - [TEST_CASE][PASSED] - Test Cases/Customer/Login: Test Cases/Customer/Login
+
+2022-05-21 19:32:17 - [TEST_STEP][PASSED] - startApplication("C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk", true): Started app at: 'C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk'
+
+2022-05-21 19:32:20 - [MESSAGE][INFO] - Appium server started on port 55,766
+
+2022-05-21 19:32:35 - [MESSAGE][PASSED] - Started app at: 'C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk'
+
+2022-05-21 19:32:35 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/Customer/Login/android.widget.Button (1)"), 0, 0): Tapped and held on element 'Object Repository/Customer/Login/android.widget.Button (1)' with duration (default)
+
+2022-05-21 19:32:35 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-05-21 19:32:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 19:32:37 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Customer/Login/android.widget.Button (1)' with duration (default)
+
+2022-05-21 19:32:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Login/android.widget.EditText - Username"), 0): Tapped on element 'Object Repository/Customer/Login/android.widget.EditText - Username'
+
+2022-05-21 19:32:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 19:32:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Login/android.widget.EditText - Username'
+
+2022-05-21 19:32:38 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Login/android.widget.EditText - Username"), "pubzzz2002@gmail.com", 0): Text 'pubzzz2002@gmail.com' has been set to element 'Object Repository/Customer/Login/android.widget.EditText - Username'
+
+2022-05-21 19:32:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 19:32:39 - [MESSAGE][PASSED] - Text 'pubzzz2002@gmail.com' has been set to element 'Object Repository/Customer/Login/android.widget.EditText - Username'
+
+2022-05-21 19:32:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/Customer/Login/android.widget.EditText - Password'
+
+2022-05-21 19:32:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 19:32:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Login/android.widget.EditText - Password'
+
+2022-05-21 19:32:40 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Login/android.widget.EditText - Password"), "123456", 0): Text '123456' has been set to element 'Object Repository/Customer/Login/android.widget.EditText - Password'
+
+2022-05-21 19:32:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 19:32:41 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Customer/Login/android.widget.EditText - Password'
+
+2022-05-21 19:32:41 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-05-21 19:32:43 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-05-21 19:32:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Login/android.widget.Button (2)"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Customer/Login/android.widget.Button (2)'
+
+2022-05-21 19:32:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 19:32:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Login/android.widget.Button (2)'
+
+2022-05-21 19:32:44 - [TEST_STEP][PASSED] - sleep(10000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/Logout" time="4.914" classname="Test Cases/Customer/Logout" status="PASSED">
+         <system-out><![CDATA[2022-05-21 19:32:54 - [TEST_CASE][PASSED] - Test Cases/Customer/Logout: Test Cases/Customer/Logout
+
+2022-05-21 19:32:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Customer/Logout/android.widget.Button"), 0): Tapped on element 'Object Repository/Customer/Logout/android.widget.Button'
+
+2022-05-21 19:32:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 19:32:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Customer/Logout/android.widget.Button'
+
+2022-05-21 19:32:55 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/Customer/Logout/android.view.View"), 0, 0): Tapped and held on element 'Object Repository/Customer/Logout/android.view.View' with duration (default)
+
+2022-05-21 19:32:55 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-05-21 19:32:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-21 19:32:58 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Customer/Logout/android.view.View' with duration (default)
+
+2022-05-21 19:32:58 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-21 19:32:59 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-21 19:32:17 - [TEST_SUITE][PASSED] - SwapMate_Mobile_TestSuite: Test Cases/Customer/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

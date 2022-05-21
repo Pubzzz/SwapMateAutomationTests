@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SwapMate_Mobile_TestSuite,,,,2022-05-21 12:32:55,2022-05-21 12:33:38,43.359s,FAILED
+,,,,,,,
+Test Cases/Customer/Registration,,,,2022-05-21 12:32:55,2022-05-21 12:33:28,32.771s,PASSED
+"startApplication(""C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk"", true)",,,,2022-05-21 12:32:56,2022-05-21 12:33:15,19.336s,PASSED
+"tapAndHold(findTestObject(""Register/android.widget.Button""), 0, 0)",,,,2022-05-21 12:33:15,2022-05-21 12:33:18,2.770s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.widget.EditText - E-mail Address (1)""), 0)",,,,2022-05-21 12:33:18,2022-05-21 12:33:19,0.899s,PASSED
+"setText(findTestObject(""Object Repository/Register/android.widget.EditText - E-mail Address""), ""testing@gmail.com"", 0)",,,,2022-05-21 12:33:19,2022-05-21 12:33:20,0.867s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.widget.EditText - Password (1)""), 0)",,,,2022-05-21 12:33:20,2022-05-21 12:33:20,0.766s,PASSED
+"setText(findTestObject(""Object Repository/Register/android.widget.EditText - Password""), ""123456"", 0)",,,,2022-05-21 12:33:20,2022-05-21 12:33:21,0.729s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.widget.EditText - Re-enter Password (1)""), 0)",,,,2022-05-21 12:33:21,2022-05-21 12:33:22,0.753s,PASSED
+"setText(findTestObject(""Object Repository/Register/android.widget.EditText - Re-enter Password""), ""123456"", 0)",,,,2022-05-21 12:33:22,2022-05-21 12:33:23,0.817s,PASSED
+hideKeyboard(),,,,2022-05-21 12:33:23,2022-05-21 12:33:25,2.024s,PASSED
+"tapAndHold(findTestObject(""Customer/Register/android.widget.Button (1)""), 0, 0)",,,,2022-05-21 12:33:25,2022-05-21 12:33:28,3.462s,PASSED
+,,,,,,,
+Test Cases/Customer/Update Profile Details,,,,2022-05-21 12:33:28,2022-05-21 12:33:38,10.339s,FAILED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.widget.EditText - First Name""), 0)",,,,2022-05-21 12:33:28,2022-05-21 12:33:32,3.507s,PASSED
+"setText(findTestObject(""Object Repository/Customer/Update Profile/android.widget.ScrollView""), ""TestingFirstname"", 0)",,,,2022-05-21 12:33:32,2022-05-21 12:33:33,0.775s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.widget.EditText - Last Name""), 0)",,,,2022-05-21 12:33:33,2022-05-21 12:33:33,0.312s,PASSED
+"setText(findTestObject(""Object Repository/Customer/Update Profile/android.widget.ScrollView (1)""), ""TestingLastname"", 0)",,,,2022-05-21 12:33:33,2022-05-21 12:33:34,0.684s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.widget.EditText - Address""), 0)",,,,2022-05-21 12:33:34,2022-05-21 12:33:34,0.260s,PASSED
+"setText(findTestObject(""Object Repository/Customer/Update Profile/android.view.View""), ""18/7, Testing Street, QA"", 0)",,,,2022-05-21 12:33:34,2022-05-21 12:33:35,0.706s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.widget.EditText - Contact Number""), 0)",,,,2022-05-21 12:33:35,2022-05-21 12:33:35,0.302s,PASSED
+"setText(findTestObject(""Object Repository/Customer/Update Profile/android.widget.ScrollView (2)""), ""0745678932"", 0)",,,,2022-05-21 12:33:35,2022-05-21 12:33:36,0.666s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.widget.EditText - Nic""), 0)",,,,2022-05-21 12:33:36,2022-05-21 12:33:36,0.295s,PASSED
+"setText(findTestObject(""Object Repository/Customer/Update Profile/android.widget.ScrollView (3)""), ""200286798484"", 0)",,,,2022-05-21 12:33:36,2022-05-21 12:33:37,0.672s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.widget.EditText - Age""), 0)",,,,2022-05-21 12:33:37,2022-05-21 12:33:38,0.942s,PASSED
+"setText(findTestObject(""Object Repository/Customer/Update Profile/android.widget.ScrollView (4)""), ""26"", 0)",,,,2022-05-21 12:33:38,2022-05-21 12:33:38,0.134s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.view.View (2)""), 0)",,,,2022-05-21 12:33:38,2022-05-21 12:33:38,0.253s,PASSED
+"tapAndHold(findTestObject(""""), 0, 0)",,,,2022-05-21 12:33:38,2022-05-21 12:33:38,0.530s,FAILED

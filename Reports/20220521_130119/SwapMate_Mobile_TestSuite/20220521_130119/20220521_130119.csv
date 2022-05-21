@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SwapMate_Mobile_TestSuite,,,,2022-05-21 13:01:21,2022-05-21 13:03:12,1m - 51.303s,FAILED
+,,,,,,,
+Test Cases/Customer/Registration,,,,2022-05-21 13:01:21,2022-05-21 13:01:49,27.318s,PASSED
+"startApplication(""C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk"", true)",,,,2022-05-21 13:01:22,2022-05-21 13:01:36,14.111s,PASSED
+"tapAndHold(findTestObject(""Register/android.widget.Button""), 0, 0)",,,,2022-05-21 13:01:36,2022-05-21 13:01:38,2.743s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.widget.EditText - E-mail Address (1)""), 0)",,,,2022-05-21 13:01:38,2022-05-21 13:01:39,0.754s,PASSED
+"setText(findTestObject(""Object Repository/Register/android.widget.EditText - E-mail Address""), ""testing@gmail.com"", 0)",,,,2022-05-21 13:01:39,2022-05-21 13:01:40,0.971s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.widget.EditText - Password (1)""), 0)",,,,2022-05-21 13:01:40,2022-05-21 13:01:41,0.764s,PASSED
+"setText(findTestObject(""Object Repository/Register/android.widget.EditText - Password""), ""123456"", 0)",,,,2022-05-21 13:01:41,2022-05-21 13:01:42,0.691s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.widget.EditText - Re-enter Password (1)""), 0)",,,,2022-05-21 13:01:42,2022-05-21 13:01:42,0.742s,PASSED
+"setText(findTestObject(""Object Repository/Register/android.widget.EditText - Re-enter Password""), ""123456"", 0)",,,,2022-05-21 13:01:42,2022-05-21 13:01:43,0.765s,PASSED
+hideKeyboard(),,,,2022-05-21 13:01:43,2022-05-21 13:01:45,1.965s,PASSED
+"tapAndHold(findTestObject(""Customer/Register/android.widget.Button (1)""), 0, 0)",,,,2022-05-21 13:01:45,2022-05-21 13:01:49,3.536s,PASSED
+,,,,,,,
+Test Cases/Customer/Update Profile Details,,,,2022-05-21 13:01:49,2022-05-21 13:02:12,22.906s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.widget.EditText - First Name""), 0, STOP_ON_FAILURE)",,,,2022-05-21 13:01:49,2022-05-21 13:01:52,2.961s,PASSED
+"setText(findTestObject(""Customer/Update Profile/android.widget.EditText - First Name""), ""TestingFirstname"", 0)",,,,2022-05-21 13:01:52,2022-05-21 13:01:53,0.713s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.widget.EditText - Last Name""), 0)",,,,2022-05-21 13:01:53,2022-05-21 13:01:54,1.007s,PASSED
+"setText(findTestObject(""Customer/Update Profile/android.widget.EditText - Last Name""), ""TestingLastname"", 0)",,,,2022-05-21 13:01:54,2022-05-21 13:01:54,0.789s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.widget.EditText - Address""), 0)",,,,2022-05-21 13:01:54,2022-05-21 13:01:55,0.993s,PASSED
+"setText(findTestObject(""Customer/Update Profile/android.widget.EditText - Address""), ""18/7, Testing Street, QA"", 0)",,,,2022-05-21 13:01:55,2022-05-21 13:01:56,0.766s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.widget.EditText - Contact Number""), 0)",,,,2022-05-21 13:01:56,2022-05-21 13:01:57,1.000s,PASSED
+"setText(findTestObject(""Customer/Update Profile/android.widget.EditText - Contact Number""), ""0745678932"", 0)",,,,2022-05-21 13:01:57,2022-05-21 13:01:58,0.763s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.widget.EditText - Nic""), 0)",,,,2022-05-21 13:01:58,2022-05-21 13:01:59,0.701s,PASSED
+"setText(findTestObject(""Customer/Update Profile/android.widget.EditText - Nic""), ""200286798484"", 0)",,,,2022-05-21 13:01:59,2022-05-21 13:01:59,0.658s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.widget.EditText - Age""), 0)",,,,2022-05-21 13:01:59,2022-05-21 13:02:01,1.819s,PASSED
+"setText(findTestObject(""Customer/Update Profile/android.widget.EditText - Age""), ""26"", 0)",,,,2022-05-21 13:02:01,2022-05-21 13:02:01,0.134s,PASSED
+"tap(findTestObject(""Customer/Update Profile/android.view.View (2)""), 0)",,,,2022-05-21 13:02:01,2022-05-21 13:02:02,0.704s,PASSED
+"tapAndHold(findTestObject(""Customer/Update Profile/android.view.View (2)""), 0, 0)",,,,2022-05-21 13:02:02,2022-05-21 13:02:05,3.365s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.widget.Button (1)""), 0)",,,,2022-05-21 13:02:05,2022-05-21 13:02:06,0.248s,PASSED
+"tapAndHold(findTestObject(""Object Repository/Customer/Update Profile/android.view.View (3)""), 0, 0)",,,,2022-05-21 13:02:06,2022-05-21 13:02:09,3.368s,PASSED
+"tapAndHold(findTestObject(""Object Repository/Customer/Update Profile/android.widget.Button (2)""), 0, 0)",,,,2022-05-21 13:02:09,2022-05-21 13:02:12,2.651s,PASSED
+,,,,,,,
+Test Cases/Customer/Logout,,,,2022-05-21 13:02:12,2022-05-21 13:02:17,5.015s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Logout/android.widget.Button""), 0)",,,,2022-05-21 13:02:12,2022-05-21 13:02:13,1.225s,PASSED
+"tapAndHold(findTestObject(""Object Repository/Customer/Logout/android.view.View""), 0, 0)",,,,2022-05-21 13:02:13,2022-05-21 13:02:16,2.645s,PASSED
+closeApplication(),,,,2022-05-21 13:02:16,2022-05-21 13:02:17,0.902s,PASSED
+,,,,,,,
+Test Cases/Customer/Login,,,,2022-05-21 13:02:17,2022-05-21 13:02:41,24.253s,PASSED
+"startApplication(""C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk"", true)",,,,2022-05-21 13:02:17,2022-05-21 13:02:30,13.065s,PASSED
+"tapAndHold(findTestObject(""Object Repository/Customer/Login/android.widget.Button (1)""), 0, 0)",,,,2022-05-21 13:02:30,2022-05-21 13:02:33,2.992s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Login/android.widget.EditText - Username""), 0)",,,,2022-05-21 13:02:33,2022-05-21 13:02:34,0.655s,PASSED
+"setText(findTestObject(""Customer/Login/android.widget.EditText - Username""), ""pubzzz2002@gmail.com"", 0)",,,,2022-05-21 13:02:34,2022-05-21 13:02:35,0.871s,PASSED
+"tap(findTestObject(""Object Repository/Customer/Login/android.widget.EditText - Password""), 0)",,,,2022-05-21 13:02:35,2022-05-21 13:02:35,0.759s,PASSED
+"setText(findTestObject(""Customer/Login/android.widget.EditText - Password""), ""123456"", 0)",,,,2022-05-21 13:02:35,2022-05-21 13:02:36,0.696s,PASSED
+hideKeyboard(),,,,2022-05-21 13:02:36,2022-05-21 13:02:38,1.859s,PASSED
+"tapAndHold(findTestObject(""Object Repository/Customer/Login/android.widget.Button (2)""), 0, 0)",,,,2022-05-21 13:02:38,2022-05-21 13:02:41,3.038s,PASSED
+,,,,,,,
+Test Cases/Customer/Logout,,,,2022-05-21 13:02:41,2022-05-21 13:03:12,31.586s,FAILED
+"tap(findTestObject(""Object Repository/Customer/Logout/android.widget.Button""), 0)",,,,2022-05-21 13:02:41,2022-05-21 13:02:42,1.130s,PASSED
+"tapAndHold(findTestObject(""Object Repository/Customer/Logout/android.view.View""), 0, 0)",,,,2022-05-21 13:02:42,2022-05-21 13:03:12,30.450s,FAILED
