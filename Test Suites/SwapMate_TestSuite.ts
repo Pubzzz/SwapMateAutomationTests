@@ -35,10 +35,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin/Search stock items</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>16da7a47-a7a5-4efa-9f8d-bff05cf707d1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/Publish stock items</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

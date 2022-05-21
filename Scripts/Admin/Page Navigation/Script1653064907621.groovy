@@ -46,7 +46,7 @@ WebUI.click(findTestObject('Object Repository/Admin_Page_Navigation/Page_SwapMat
 
 WebUI.click(findTestObject('Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Showroom'))
 
-WebUI.verifyElementNotVisibleInViewport(findTestObject('Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Items In Showroom'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Items In Showroom'), 
     0)
 
 WebUI.click(findTestObject('Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Orders'))
