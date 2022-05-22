@@ -320,3 +320,13 @@
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
 [35m[HTTP][39m [37m<-- DELETE /wd/hub/session/9a3470a9-820f-4ce3-9c96-982b0a167861 [39m[31m500[39m [90m21090 ms - 1353[39m
 [35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session '9a3470a9-820f-4ce3-9c96-982b0a167861' from our master session list
+[35m[UiAutomator2][39m Unable to force stop app: Error executing adbExec. Original error: 'Command 'C:\\Users\\prabh\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.example.swap_mate_mobile' exited with code 1'; Command output: adb.exe: device 'emulator-5554' not found
+[35m[UiAutomator2][39m 
+[35m[UiAutomator2][39m Unable to uninstall app: Error finding if 'com.example.swap_mate_mobile' is installed. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\prabh\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.example.swap_mate_mobile' exited with code 1'; Command output: adb.exe: device 'emulator-5554' not found
+[35m[UiAutomator2][39m 
+[35m[ADB][39m Error sending command, reconnecting device and retrying: forward,--remove,tcp:54989
+[35m[UiAutomator2][39m Unable to remove system port forward: Could not find a connected Android device in 20158ms.
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
