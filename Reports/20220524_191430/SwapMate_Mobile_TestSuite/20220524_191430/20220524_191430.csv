@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SwapMate_Mobile_TestSuite,,,,2022-05-24 19:14:34,2022-05-24 19:14:40,6.765s,FAILED
+,,,,,,,
+Test Cases/Customer/Registration,,,,2022-05-24 19:14:34,2022-05-24 19:14:39,4.455s,FAILED
+"startApplication(""C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk"", true)",,,,2022-05-24 19:14:35,2022-05-24 19:14:39,3.945s,FAILED
+,,,,,,,
+Test Cases/Customer/Update Profile Details,,,,2022-05-24 19:14:39,2022-05-24 19:14:39,0.607s,FAILED
+"tap(findTestObject(""Object Repository/Customer/Update Profile/android.widget.EditText - First Name""), 0, STOP_ON_FAILURE)",,,,2022-05-24 19:14:39,2022-05-24 19:14:39,0.171s,PASSED
+,,,,,,,
+Test Cases/Customer/Logout,,,,2022-05-24 19:14:39,2022-05-24 19:14:40,0.692s,FAILED
+"tap(findTestObject(""Object Repository/Customer/Logout/android.widget.Button""), 0)",,,,2022-05-24 19:14:40,2022-05-24 19:14:40,0.097s,PASSED
+,,,,,,,
+Test Cases/Customer/Login,,,,2022-05-24 19:14:40,2022-05-24 19:14:40,0.541s,FAILED
+"startApplication(""C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk"", true)",,,,2022-05-24 19:14:40,2022-05-24 19:14:40,0.062s,FAILED
+,,,,,,,
+Test Cases/Customer/Logout,,,,2022-05-24 19:14:40,2022-05-24 19:14:40,0.090s,FAILED
+"tap(findTestObject(""Object Repository/Customer/Logout/android.widget.Button""), 0)",,,,2022-05-24 19:14:40,2022-05-24 19:14:40,0.080s,PASSED

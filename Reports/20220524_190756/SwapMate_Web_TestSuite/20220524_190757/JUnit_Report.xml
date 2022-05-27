@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SwapMate_Web_TestSuite" time="103.09" tests="4" failures="0" errors="0">
+   <testsuite name="SwapMate_Web_TestSuite" tests="4" failures="0" errors="0" time="103.09" skipped="0" timestamp="2022-05-24 19:07:59" hostname="prabh - DESKTOP-DI7ILBH" id="Test Suites/SwapMate_Web_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\prabh\\Documents\\GitHub\\SwapMateAutomation\\Reports\\20220524_190756\\SwapMate_Web_TestSuite\\20220524_190757"/>
+         <property name="logFiles" value="C:\\Users\\prabh\\Documents\\GitHub\\SwapMateAutomation\\Reports\\20220524_190756\\SwapMate_Web_TestSuite\\20220524_190757\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="prabh - DESKTOP-DI7ILBH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.67"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="4401f8047936ba3cf6503624671c21ce"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin/Login" time="10.292" classname="Test Cases/Admin/Login" status="PASSED">
+         <system-out><![CDATA[2022-05-24 19:08:00 - [TEST_CASE][PASSED] - Test Cases/Admin/Login: Test Cases/Admin/Login
+
+2022-05-24 19:08:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-24 19:08:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-24 19:08:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-24 19:08:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-24 19:08:02 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:4200/site"): Navigate to 'http://localhost:4200/site' successfully
+
+2022-05-24 19:08:04 - [MESSAGE][PASSED] - Navigate to 'http://localhost:4200/site' successfully
+
+2022-05-24 19:08:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Login_Logout/Page_SwapMate/i_Products_fas fa-user-cog")): Object: 'Object Repository/Admin_Login_Logout/Page_SwapMate/i_Products_fas fa-user-cog' is clicked on
+
+2022-05-24 19:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Login_Logout/Page_SwapMate/i_Products_fas fa-user-cog' is clicked on
+
+2022-05-24 19:08:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Login_Logout/Page_SwapMate/h3_Admin Login Panel"), 0): Object 'Object Repository/Admin_Login_Logout/Page_SwapMate/h3_Admin Login Panel' is present
+
+2022-05-24 19:08:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:08:06 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Login_Logout/Page_SwapMate/h3_Admin Login Panel' is present
+
+2022-05-24 19:08:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin_Login_Logout/Page_SwapMate/input_Email address_email"), "Admin@gmail.com"): Text 'Admin@gmail.com' is set on object 'Object Repository/Admin_Login_Logout/Page_SwapMate/input_Email address_email'
+
+2022-05-24 19:08:07 - [MESSAGE][PASSED] - Text 'Admin@gmail.com' is set on object 'Object Repository/Admin_Login_Logout/Page_SwapMate/input_Email address_email'
+
+2022-05-24 19:08:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin_Login_Logout/Page_SwapMate/input_Password_password"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Admin_Login_Logout/Page_SwapMate/input_Password_password'
+
+2022-05-24 19:08:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin_Login_Logout/Page_SwapMate/input_Password_password'
+
+2022-05-24 19:08:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Login_Logout/Page_SwapMate/button_Submit")): Object: 'Object Repository/Admin_Login_Logout/Page_SwapMate/button_Submit' is clicked on
+
+2022-05-24 19:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Login_Logout/Page_SwapMate/button_Submit' is clicked on
+
+2022-05-24 19:08:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Login_Logout/Page_SwapMate/a_SwapMate Admin"), 0): Object 'Object Repository/Admin_Login_Logout/Page_SwapMate/a_SwapMate Admin' is present
+
+2022-05-24 19:08:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:08:10 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Login_Logout/Page_SwapMate/a_SwapMate Admin' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Page Navigation" time="26.126" classname="Test Cases/Admin/Page Navigation" status="PASSED">
+         <system-out><![CDATA[2022-05-24 19:08:10 - [TEST_CASE][PASSED] - Test Cases/Admin/Page Navigation: Test Cases/Admin/Page Navigation
+
+2022-05-24 19:08:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Dashboard")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Dashboard' is clicked on
+
+2022-05-24 19:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Dashboard' is clicked on
+
+2022-05-24 19:08:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Dashboard"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Dashboard' is present
+
+2022-05-24 19:08:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:08:11 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Dashboard' is present
+
+2022-05-24 19:08:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Showroom New")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Showroom New' is clicked on
+
+2022-05-24 19:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Showroom New' is clicked on
+
+2022-05-24 19:08:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Showroom"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Showroom' is present
+
+2022-05-24 19:08:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:08:14 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Showroom' is present
+
+2022-05-24 19:08:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_My Calendar 6")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_My Calendar 6' is clicked on
+
+2022-05-24 19:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_My Calendar 6' is clicked on
+
+2022-05-24 19:08:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Appointments"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Appointments' is present
+
+2022-05-24 19:08:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:08:15 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Appointments' is present
+
+2022-05-24 19:08:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Stock")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Stock' is clicked on
+
+2022-05-24 19:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Stock' is clicked on
+
+2022-05-24 19:08:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Manage Current Stock"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Manage Current Stock' is present
+
+2022-05-24 19:08:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:08:21 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Manage Current Stock' is present
+
+2022-05-24 19:08:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:08:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Donations")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Donations' is clicked on
+
+2022-05-24 19:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Donations' is clicked on
+
+2022-05-24 19:08:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Donations List"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Donations List' is present
+
+2022-05-24 19:08:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:08:25 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Donations List' is present
+
+2022-05-24 19:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Showroom")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Showroom' is clicked on
+
+2022-05-24 19:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Showroom' is clicked on
+
+2022-05-24 19:08:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Items In Showroom"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Items In Showroom' is present
+
+2022-05-24 19:08:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:08:30 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Items In Showroom' is present
+
+2022-05-24 19:08:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Orders")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Orders' is clicked on
+
+2022-05-24 19:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Orders' is clicked on
+
+2022-05-24 19:08:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Ongoing Orders"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Ongoing Orders' is present
+
+2022-05-24 19:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:08:32 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Ongoing Orders' is present
+
+2022-05-24 19:08:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Customers")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Customers' is clicked on
+
+2022-05-24 19:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Customers' is clicked on
+
+2022-05-24 19:08:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Customers"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Customers' is present
+
+2022-05-24 19:08:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:08:36 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Customers' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Add stock items" time="51.522" classname="Test Cases/Admin/Add stock items" status="PASSED">
+         <system-out><![CDATA[2022-05-24 19:08:36 - [TEST_CASE][PASSED] - Test Cases/Admin/Add stock items: Test Cases/Admin/Add stock items
+
+2022-05-24 19:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/i_New_right fas fa-angle-left_1")): Object: 'Object Repository/Add stock/Page_SwapMate/i_New_right fas fa-angle-left_1' is clicked on
+
+2022-05-24 19:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/i_New_right fas fa-angle-left_1' is clicked on
+
+2022-05-24 19:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/i_New_right fas fa-angle-left_1")): Object: 'Object Repository/Add stock/Page_SwapMate/i_New_right fas fa-angle-left_1' is clicked on
+
+2022-05-24 19:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/i_New_right fas fa-angle-left_1' is clicked on
+
+2022-05-24 19:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/a_Manage Stock")): Object: 'Object Repository/Add stock/Page_SwapMate/a_Manage Stock' is clicked on
+
+2022-05-24 19:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/a_Manage Stock' is clicked on
+
+2022-05-24 19:08:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Add stock/Page_SwapMate/h4_Manage Current Stock"), 0): Object 'Object Repository/Add stock/Page_SwapMate/h4_Manage Current Stock' is present
+
+2022-05-24 19:08:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:08:42 - [MESSAGE][PASSED] - Object 'Object Repository/Add stock/Page_SwapMate/h4_Manage Current Stock' is present
+
+2022-05-24 19:08:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Add new Item")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Add new Item' is clicked on
+
+2022-05-24 19:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Add new Item' is clicked on
+
+2022-05-24 19:08:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Add stock/Page_SwapMate/h5_Enter Stock Item Details"), 0): Object 'Object Repository/Add stock/Page_SwapMate/h5_Enter Stock Item Details' is present
+
+2022-05-24 19:08:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:08:43 - [MESSAGE][PASSED] - Object 'Object Repository/Add stock/Page_SwapMate/h5_Enter Stock Item Details' is present
+
+2022-05-24 19:08:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral"), "Ladies' Wear", true): All options with value 'Ladies' Wear' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:08:44 - [MESSAGE][PASSED] - All options with value 'Ladies' Wear' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:08:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Please select Category firstBridal W_fb86c9"), "Ladies' Skirts", true): All options with value 'Ladies' Skirts' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstBridal W_fb86c9'  using regular expression
+
+2022-05-24 19:08:45 - [MESSAGE][PASSED] - All options with value 'Ladies' Skirts' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstBridal W_fb86c9'  using regular expression
+
+2022-05-24 19:08:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/p_Rejected")): Object: 'Object Repository/Add stock/Page_SwapMate/p_Rejected' is clicked on
+
+2022-05-24 19:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/p_Rejected' is clicked on
+
+2022-05-24 19:08:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL"), "XL", true): All options with value 'XL' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:08:47 - [MESSAGE][PASSED] - All options with value 'XL' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:08:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used"), "Used in Good Condition", true): All options with value 'Used in Good Condition' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:08:48 - [MESSAGE][PASSED] - All options with value 'Used in Good Condition' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:08:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available"), "Available", true): All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:08:49 - [MESSAGE][PASSED] - All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:08:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1"), "Available", true): All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:08:49 - [MESSAGE][PASSED] - All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:08:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded"), "Well Known", true): All options with value 'Well Known' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:08:50 - [MESSAGE][PASSED] - All options with value 'Well Known' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Add to Stock")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:08:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Add stock/Page_SwapMate/div_Close    Successfull Added to Stock"), 0): Object 'Object Repository/Add stock/Page_SwapMate/div_Close    Successfull Added to Stock' is present
+
+2022-05-24 19:08:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:08:52 - [MESSAGE][PASSED] - Object 'Object Repository/Add stock/Page_SwapMate/div_Close    Successfull Added to Stock' is present
+
+2022-05-24 19:08:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Add stock/Page_SwapMate/h5_Customer Swap Information"), 0): Object 'Object Repository/Add stock/Page_SwapMate/h5_Customer Swap Information' is present
+
+2022-05-24 19:08:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:08:52 - [MESSAGE][PASSED] - Object 'Object Repository/Add stock/Page_SwapMate/h5_Customer Swap Information' is present
+
+2022-05-24 19:08:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/td_540")): Object: 'Object Repository/Add stock/Page_SwapMate/td_540' is clicked on
+
+2022-05-24 19:08:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/td_540' is clicked on
+
+2022-05-24 19:08:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/p_Total Points  540")): Object: 'Object Repository/Add stock/Page_SwapMate/p_Total Points  540' is clicked on
+
+2022-05-24 19:08:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/p_Total Points  540' is clicked on
+
+2022-05-24 19:08:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Reset")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Reset' is clicked on
+
+2022-05-24 19:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Reset' is clicked on
+
+2022-05-24 19:08:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral"), "Mens' Wear", true): All options with value 'Mens' Wear' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:08:58 - [MESSAGE][PASSED] - All options with value 'Mens' Wear' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:08:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Please select Category firstGrooms W_2a996e"), "Mens' Denims", true): All options with value 'Mens' Denims' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstGrooms W_2a996e'  using regular expression
+
+2022-05-24 19:08:59 - [MESSAGE][PASSED] - All options with value 'Mens' Denims' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstGrooms W_2a996e'  using regular expression
+
+2022-05-24 19:08:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL"), "3XL", true): All options with value '3XL' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:09:00 - [MESSAGE][PASSED] - All options with value '3XL' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:09:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used"), "Used in Good Condition", true): All options with value 'Used in Good Condition' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:09:01 - [MESSAGE][PASSED] - All options with value 'Used in Good Condition' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:09:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available"), "Available", true): All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:09:01 - [MESSAGE][PASSED] - All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:09:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1"), "Not Available", true): All options with value 'Not Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:09:02 - [MESSAGE][PASSED] - All options with value 'Not Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:09:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded"), "Moderate", true): All options with value 'Moderate' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:09:03 - [MESSAGE][PASSED] - All options with value 'Moderate' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:09:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Add to Stock")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:09:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Reset")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Reset' is clicked on
+
+2022-05-24 19:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Reset' is clicked on
+
+2022-05-24 19:09:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral"), "Kids' Wear", true): All options with value 'Kids' Wear' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:09:05 - [MESSAGE][PASSED] - All options with value 'Kids' Wear' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:09:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Please select Category firstFrocksKi_76afd3"), "Frocks", true): All options with value 'Frocks' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstFrocksKi_76afd3'  using regular expression
+
+2022-05-24 19:09:11 - [MESSAGE][PASSED] - All options with value 'Frocks' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstFrocksKi_76afd3'  using regular expression
+
+2022-05-24 19:09:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL"), "M", true): All options with value 'M' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:09:12 - [MESSAGE][PASSED] - All options with value 'M' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:09:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used"), "Not Used", true): All options with value 'Not Used' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:09:12 - [MESSAGE][PASSED] - All options with value 'Not Used' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:09:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available"), "Available", true): All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:09:13 - [MESSAGE][PASSED] - All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:09:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1"), "Available", true): All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:09:14 - [MESSAGE][PASSED] - All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:09:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded"), "Moderate", true): All options with value 'Moderate' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:09:15 - [MESSAGE][PASSED] - All options with value 'Moderate' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Add to Stock")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Reset")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Reset' is clicked on
+
+2022-05-24 19:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Reset' is clicked on
+
+2022-05-24 19:09:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral"), "General", true): All options with value 'General' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:09:17 - [MESSAGE][PASSED] - All options with value 'General' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:09:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Please select Category firstTravelli_0767cc"), "Footware", true): All options with value 'Footware' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstTravelli_0767cc'  using regular expression
+
+2022-05-24 19:09:23 - [MESSAGE][PASSED] - All options with value 'Footware' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstTravelli_0767cc'  using regular expression
+
+2022-05-24 19:09:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL"), "XL", true): All options with value 'XL' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:09:23 - [MESSAGE][PASSED] - All options with value 'XL' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:09:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used"), "Used in Good Condition", true): All options with value 'Used in Good Condition' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:09:24 - [MESSAGE][PASSED] - All options with value 'Used in Good Condition' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:09:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available"), "Available", true): All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:09:25 - [MESSAGE][PASSED] - All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:09:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1"), "Not Available", true): All options with value 'Not Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:09:26 - [MESSAGE][PASSED] - All options with value 'Not Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:09:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded"), "Unbranded", true): All options with value 'Unbranded' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:09:26 - [MESSAGE][PASSED] - All options with value 'Unbranded' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Add to Stock")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:09:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/p_Total Points  1392")): Object: 'Object Repository/Add stock/Page_SwapMate/p_Total Points  1392' is clicked on
+
+2022-05-24 19:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/p_Total Points  1392' is clicked on
+
+2022-05-24 19:09:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/span_")): Object: 'Object Repository/Add stock/Page_SwapMate/span_' is clicked on
+
+2022-05-24 19:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/span_' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Search stock items" time="14.913" classname="Test Cases/Admin/Search stock items" status="PASSED">
+         <system-out><![CDATA[2022-05-24 19:09:28 - [TEST_CASE][PASSED] - Test Cases/Admin/Search stock items: Test Cases/Admin/Search stock items
+
+2022-05-24 19:09:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Stock_Search/Page_SwapMate/i_New_right fas fa-angle-left")): Object: 'Object Repository/Stock_Search/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Stock_Search/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:09:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Stock_Search/Page_SwapMate/i_New_right fas fa-angle-left_1")): Object: 'Object Repository/Stock_Search/Page_SwapMate/i_New_right fas fa-angle-left_1' is clicked on
+
+2022-05-24 19:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Stock_Search/Page_SwapMate/i_New_right fas fa-angle-left_1' is clicked on
+
+2022-05-24 19:09:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Stock_Search/Page_SwapMate/a_Manage Stock")): Object: 'Object Repository/Stock_Search/Page_SwapMate/a_Manage Stock' is clicked on
+
+2022-05-24 19:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Stock_Search/Page_SwapMate/a_Manage Stock' is clicked on
+
+2022-05-24 19:09:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Stock_Search/Page_SwapMate/label_Search"), 0): Object 'Object Repository/Stock_Search/Page_SwapMate/label_Search' is present
+
+2022-05-24 19:09:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:09:41 - [MESSAGE][PASSED] - Object 'Object Repository/Stock_Search/Page_SwapMate/label_Search' is present
+
+2022-05-24 19:09:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Stock_Search/Page_SwapMate/input_Search_form-control form-control-sm"), "XL"): Text 'XL' is set on object 'Object Repository/Stock_Search/Page_SwapMate/input_Search_form-control form-control-sm'
+
+2022-05-24 19:09:41 - [MESSAGE][PASSED] - Text 'XL' is set on object 'Object Repository/Stock_Search/Page_SwapMate/input_Search_form-control form-control-sm'
+
+2022-05-24 19:09:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Stock_Search/Page_SwapMate/div_Showing 1 to 5 of 5 entries (filtered f_9f68b9_1"), 0): Object 'Object Repository/Stock_Search/Page_SwapMate/div_Showing 1 to 5 of 5 entries (filtered f_9f68b9_1' is present
+
+2022-05-24 19:09:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:09:42 - [MESSAGE][PASSED] - Object 'Object Repository/Stock_Search/Page_SwapMate/div_Showing 1 to 5 of 5 entries (filtered f_9f68b9_1' is present
+
+2022-05-24 19:09:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Stock_Search/Page_SwapMate/input_Search_form-control form-control-sm"), ""): Text '' is set on object 'Object Repository/Stock_Search/Page_SwapMate/input_Search_form-control form-control-sm'
+
+2022-05-24 19:09:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Stock_Search/Page_SwapMate/input_Search_form-control form-control-sm'
+
+2022-05-24 19:09:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Stock_Search/Page_SwapMate/div_Showing 1 to 11 of 11 entries"), 0): Object 'Object Repository/Stock_Search/Page_SwapMate/div_Showing 1 to 11 of 11 entries' is present
+
+2022-05-24 19:09:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:09:43 - [MESSAGE][PASSED] - Object 'Object Repository/Stock_Search/Page_SwapMate/div_Showing 1 to 11 of 11 entries' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-24 19:07:59 - [TEST_SUITE][PASSED] - SwapMate_Web_TestSuite: Test Cases/Admin/Search stock items]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

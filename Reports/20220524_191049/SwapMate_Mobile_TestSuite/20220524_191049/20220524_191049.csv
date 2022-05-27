@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SwapMate_Mobile_TestSuite,,,,2022-05-24 19:10:51,2022-05-24 19:10:55,3.768s,FAILED
+,,,,,,,
+Test Cases/Customer/Login,,,,2022-05-24 19:10:52,2022-05-24 19:10:55,3.223s,FAILED
+"startApplication(""C:\Users\prabh\Documents\GitHub\SwapMateMobile\build\app\outputs\flutter-apk\app.apk"", true)",,,,2022-05-24 19:10:52,2022-05-24 19:10:55,2.942s,FAILED
+,,,,,,,
+Test Cases/Customer/Logout,,,,2022-05-24 19:10:55,2022-05-24 19:10:55,0.335s,FAILED
+"tap(findTestObject(""Object Repository/Customer/Logout/android.widget.Button""), 0)",,,,2022-05-24 19:10:55,2022-05-24 19:10:55,0.085s,PASSED

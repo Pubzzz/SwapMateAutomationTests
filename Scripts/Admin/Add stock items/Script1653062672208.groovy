@@ -142,19 +142,19 @@ WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/p_Total Po
 
 WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/span_'))
 
-WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_Ladies Skirts'))
-
-WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_540'))
-
-WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_Mens Denims'))
-
-WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_288'))
-
-WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_Frocks'))
-
-WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_432'))
-
-WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_Footware'))
-
-WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_132'))
+//WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_Ladies Skirts'))
+//
+//WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_540'))
+//
+//WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_Mens Denims'))
+//
+//WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_288'))
+//
+//WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_Frocks'))
+//
+//WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_432'))
+//
+//WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_Footware'))
+//
+//WebUI.click(findTestObject('Object Repository/Add stock/Page_SwapMate/td_132'))
 

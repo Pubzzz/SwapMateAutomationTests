@@ -14,19 +14,19 @@
    <testCaseLink>
       <guid>faa68ff4-1209-4eed-8baa-ad00baaa6988</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Customer/Registration</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b3afa7cc-440b-4acc-b530-ef721fac95be</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Customer/Update Profile Details</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>32fe43dc-3a8b-4017-8622-310d040a6787</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Customer/Logout</testCaseId>
    </testCaseLink>
    <testCaseLink>

@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SwapMate_Web_TestSuite" time="166.06" tests="4" failures="1" errors="0">
+   <testsuite name="SwapMate_Web_TestSuite" tests="4" failures="1" errors="0" time="166.06" skipped="0" timestamp="2022-05-24 19:00:55" hostname="prabh - DESKTOP-DI7ILBH" id="Test Suites/SwapMate_Web_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\prabh\\Documents\\GitHub\\SwapMateAutomation\\Reports\\20220524_190053\\SwapMate_Web_TestSuite\\20220524_190053"/>
+         <property name="logFiles" value="C:\\Users\\prabh\\Documents\\GitHub\\SwapMateAutomation\\Reports\\20220524_190053\\SwapMate_Web_TestSuite\\20220524_190053\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\prabh\\Documents\\GitHub\\SwapMateAutomation\\Reports\\20220524_190053\\SwapMate_Web_TestSuite\\20220524_190053\\1653399212412.png"/>
+         <property name="hostName" value="prabh - DESKTOP-DI7ILBH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.67"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="092e58335f55470f0d9a9a417d9da3e0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin/Login" time="13.627" classname="Test Cases/Admin/Login" status="PASSED">
+         <system-out><![CDATA[2022-05-24 19:00:56 - [TEST_CASE][PASSED] - Test Cases/Admin/Login: Test Cases/Admin/Login
+
+2022-05-24 19:00:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-24 19:00:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-24 19:00:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-24 19:01:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-24 19:01:00 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:4200/site"): Navigate to 'http://localhost:4200/site' successfully
+
+2022-05-24 19:01:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:4200/site' successfully
+
+2022-05-24 19:01:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Login_Logout/Page_SwapMate/i_Products_fas fa-user-cog")): Object: 'Object Repository/Admin_Login_Logout/Page_SwapMate/i_Products_fas fa-user-cog' is clicked on
+
+2022-05-24 19:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Login_Logout/Page_SwapMate/i_Products_fas fa-user-cog' is clicked on
+
+2022-05-24 19:01:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Login_Logout/Page_SwapMate/h3_Admin Login Panel"), 0): Object 'Object Repository/Admin_Login_Logout/Page_SwapMate/h3_Admin Login Panel' is present
+
+2022-05-24 19:01:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:01:06 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Login_Logout/Page_SwapMate/h3_Admin Login Panel' is present
+
+2022-05-24 19:01:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin_Login_Logout/Page_SwapMate/input_Email address_email"), "Admin@gmail.com"): Text 'Admin@gmail.com' is set on object 'Object Repository/Admin_Login_Logout/Page_SwapMate/input_Email address_email'
+
+2022-05-24 19:01:06 - [MESSAGE][PASSED] - Text 'Admin@gmail.com' is set on object 'Object Repository/Admin_Login_Logout/Page_SwapMate/input_Email address_email'
+
+2022-05-24 19:01:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin_Login_Logout/Page_SwapMate/input_Password_password"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Admin_Login_Logout/Page_SwapMate/input_Password_password'
+
+2022-05-24 19:01:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin_Login_Logout/Page_SwapMate/input_Password_password'
+
+2022-05-24 19:01:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Login_Logout/Page_SwapMate/button_Submit")): Object: 'Object Repository/Admin_Login_Logout/Page_SwapMate/button_Submit' is clicked on
+
+2022-05-24 19:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Login_Logout/Page_SwapMate/button_Submit' is clicked on
+
+2022-05-24 19:01:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Login_Logout/Page_SwapMate/a_SwapMate Admin"), 0): Object 'Object Repository/Admin_Login_Logout/Page_SwapMate/a_SwapMate Admin' is present
+
+2022-05-24 19:01:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:01:09 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Login_Logout/Page_SwapMate/a_SwapMate Admin' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Page Navigation" time="42.428" classname="Test Cases/Admin/Page Navigation" status="PASSED">
+         <system-out><![CDATA[2022-05-24 19:01:09 - [TEST_CASE][PASSED] - Test Cases/Admin/Page Navigation: Test Cases/Admin/Page Navigation
+
+2022-05-24 19:01:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Dashboard")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Dashboard' is clicked on
+
+2022-05-24 19:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Dashboard' is clicked on
+
+2022-05-24 19:01:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Dashboard"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Dashboard' is present
+
+2022-05-24 19:01:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:01:11 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Dashboard' is present
+
+2022-05-24 19:01:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Showroom New")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Showroom New' is clicked on
+
+2022-05-24 19:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Showroom New' is clicked on
+
+2022-05-24 19:01:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Showroom"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Showroom' is present
+
+2022-05-24 19:01:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:01:12 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Showroom' is present
+
+2022-05-24 19:01:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_My Calendar 6")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_My Calendar 6' is clicked on
+
+2022-05-24 19:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_My Calendar 6' is clicked on
+
+2022-05-24 19:01:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Appointments"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Appointments' is present
+
+2022-05-24 19:01:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:01:14 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Appointments' is present
+
+2022-05-24 19:01:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:01:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Stock")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Stock' is clicked on
+
+2022-05-24 19:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Stock' is clicked on
+
+2022-05-24 19:01:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Manage Current Stock"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Manage Current Stock' is present
+
+2022-05-24 19:01:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:01:27 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Manage Current Stock' is present
+
+2022-05-24 19:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Donations")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Donations' is clicked on
+
+2022-05-24 19:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Donations' is clicked on
+
+2022-05-24 19:01:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Donations List"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Donations List' is present
+
+2022-05-24 19:01:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:01:32 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Donations List' is present
+
+2022-05-24 19:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:01:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Showroom")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Showroom' is clicked on
+
+2022-05-24 19:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Manage Showroom' is clicked on
+
+2022-05-24 19:01:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Items In Showroom"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Items In Showroom' is present
+
+2022-05-24 19:01:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:01:43 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h4_Items In Showroom' is present
+
+2022-05-24 19:01:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Orders")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Orders' is clicked on
+
+2022-05-24 19:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Orders' is clicked on
+
+2022-05-24 19:01:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Ongoing Orders"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Ongoing Orders' is present
+
+2022-05-24 19:01:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:01:44 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Ongoing Orders' is present
+
+2022-05-24 19:01:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Customers")): Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Customers' is clicked on
+
+2022-05-24 19:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Page_Navigation/Page_SwapMate/a_Customers' is clicked on
+
+2022-05-24 19:01:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Customers"), 0): Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Customers' is present
+
+2022-05-24 19:01:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:01:52 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Page_Navigation/Page_SwapMate/h1_Customers' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Add stock items" time="100.347" classname="Test Cases/Admin/Add stock items" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin/Add stock items FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add stock items.run(Add stock items:149)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653399053396.run(TempTestSuite1653399053396.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims' located by '//td[(text() = concat(&quot;Mens&quot; , &quot;'&quot; , &quot; Denims&quot;) or . = concat(&quot;Mens&quot; , &quot;'&quot; , &quot; Denims&quot;))]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-05-24 19:01:52 - [TEST_CASE][FAILED] - Test Cases/Admin/Add stock items: Test Cases/Admin/Add stock items FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add stock items.run(Add stock items:149)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653399053396.run(TempTestSuite1653399053396.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims' located by '//td[(text() = concat("Mens" , "'" , " Denims") or . = concat("Mens" , "'" , " Denims"))]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-05-24 19:01:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/i_New_right fas fa-angle-left_1")): Object: 'Object Repository/Add stock/Page_SwapMate/i_New_right fas fa-angle-left_1' is clicked on
+
+2022-05-24 19:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/i_New_right fas fa-angle-left_1' is clicked on
+
+2022-05-24 19:01:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/i_New_right fas fa-angle-left_1")): Object: 'Object Repository/Add stock/Page_SwapMate/i_New_right fas fa-angle-left_1' is clicked on
+
+2022-05-24 19:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/i_New_right fas fa-angle-left_1' is clicked on
+
+2022-05-24 19:01:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/a_Manage Stock")): Object: 'Object Repository/Add stock/Page_SwapMate/a_Manage Stock' is clicked on
+
+2022-05-24 19:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/a_Manage Stock' is clicked on
+
+2022-05-24 19:01:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Add stock/Page_SwapMate/h4_Manage Current Stock"), 0): Object 'Object Repository/Add stock/Page_SwapMate/h4_Manage Current Stock' is present
+
+2022-05-24 19:01:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:02:03 - [MESSAGE][PASSED] - Object 'Object Repository/Add stock/Page_SwapMate/h4_Manage Current Stock' is present
+
+2022-05-24 19:02:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Add new Item")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Add new Item' is clicked on
+
+2022-05-24 19:02:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Add new Item' is clicked on
+
+2022-05-24 19:02:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Add stock/Page_SwapMate/h5_Enter Stock Item Details"), 0): Object 'Object Repository/Add stock/Page_SwapMate/h5_Enter Stock Item Details' is present
+
+2022-05-24 19:02:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:02:04 - [MESSAGE][PASSED] - Object 'Object Repository/Add stock/Page_SwapMate/h5_Enter Stock Item Details' is present
+
+2022-05-24 19:02:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral"), "Ladies' Wear", true): All options with value 'Ladies' Wear' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:02:05 - [MESSAGE][PASSED] - All options with value 'Ladies' Wear' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:02:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Please select Category firstBridal W_fb86c9"), "Ladies' Skirts", true): All options with value 'Ladies' Skirts' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstBridal W_fb86c9'  using regular expression
+
+2022-05-24 19:02:06 - [MESSAGE][PASSED] - All options with value 'Ladies' Skirts' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstBridal W_fb86c9'  using regular expression
+
+2022-05-24 19:02:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/p_Rejected")): Object: 'Object Repository/Add stock/Page_SwapMate/p_Rejected' is clicked on
+
+2022-05-24 19:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/p_Rejected' is clicked on
+
+2022-05-24 19:02:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL"), "XL", true): All options with value 'XL' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:02:08 - [MESSAGE][PASSED] - All options with value 'XL' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:02:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used"), "Used in Good Condition", true): All options with value 'Used in Good Condition' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:02:09 - [MESSAGE][PASSED] - All options with value 'Used in Good Condition' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:02:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available"), "Available", true): All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:02:10 - [MESSAGE][PASSED] - All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:02:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1"), "Available", true): All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:02:11 - [MESSAGE][PASSED] - All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:02:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded"), "Well Known", true): All options with value 'Well Known' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:02:12 - [MESSAGE][PASSED] - All options with value 'Well Known' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:02:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Add to Stock")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:02:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Add stock/Page_SwapMate/div_Close    Successfull Added to Stock"), 0): Object 'Object Repository/Add stock/Page_SwapMate/div_Close    Successfull Added to Stock' is present
+
+2022-05-24 19:02:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:02:13 - [MESSAGE][PASSED] - Object 'Object Repository/Add stock/Page_SwapMate/div_Close    Successfull Added to Stock' is present
+
+2022-05-24 19:02:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Add stock/Page_SwapMate/h5_Customer Swap Information"), 0): Object 'Object Repository/Add stock/Page_SwapMate/h5_Customer Swap Information' is present
+
+2022-05-24 19:02:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:02:13 - [MESSAGE][PASSED] - Object 'Object Repository/Add stock/Page_SwapMate/h5_Customer Swap Information' is present
+
+2022-05-24 19:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/td_540")): Object: 'Object Repository/Add stock/Page_SwapMate/td_540' is clicked on
+
+2022-05-24 19:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/td_540' is clicked on
+
+2022-05-24 19:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/p_Total Points  540")): Object: 'Object Repository/Add stock/Page_SwapMate/p_Total Points  540' is clicked on
+
+2022-05-24 19:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/p_Total Points  540' is clicked on
+
+2022-05-24 19:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Reset")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Reset' is clicked on
+
+2022-05-24 19:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Reset' is clicked on
+
+2022-05-24 19:02:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral"), "Mens' Wear", true): All options with value 'Mens' Wear' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:02:25 - [MESSAGE][PASSED] - All options with value 'Mens' Wear' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:02:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Please select Category firstGrooms W_2a996e"), "Mens' Denims", true): All options with value 'Mens' Denims' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstGrooms W_2a996e'  using regular expression
+
+2022-05-24 19:02:26 - [MESSAGE][PASSED] - All options with value 'Mens' Denims' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstGrooms W_2a996e'  using regular expression
+
+2022-05-24 19:02:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL"), "3XL", true): All options with value '3XL' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:02:27 - [MESSAGE][PASSED] - All options with value '3XL' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:02:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used"), "Used in Good Condition", true): All options with value 'Used in Good Condition' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:02:27 - [MESSAGE][PASSED] - All options with value 'Used in Good Condition' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:02:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available"), "Available", true): All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:02:28 - [MESSAGE][PASSED] - All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:02:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1"), "Not Available", true): All options with value 'Not Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:02:29 - [MESSAGE][PASSED] - All options with value 'Not Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:02:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded"), "Moderate", true): All options with value 'Moderate' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:02:30 - [MESSAGE][PASSED] - All options with value 'Moderate' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:02:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Add to Stock")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:02:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Reset")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Reset' is clicked on
+
+2022-05-24 19:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Reset' is clicked on
+
+2022-05-24 19:02:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral"), "Kids' Wear", true): All options with value 'Kids' Wear' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:02:31 - [MESSAGE][PASSED] - All options with value 'Kids' Wear' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:02:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Please select Category firstFrocksKi_76afd3"), "Frocks", true): All options with value 'Frocks' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstFrocksKi_76afd3'  using regular expression
+
+2022-05-24 19:02:43 - [MESSAGE][PASSED] - All options with value 'Frocks' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstFrocksKi_76afd3'  using regular expression
+
+2022-05-24 19:02:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL"), "M", true): All options with value 'M' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:02:44 - [MESSAGE][PASSED] - All options with value 'M' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:02:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used"), "Not Used", true): All options with value 'Not Used' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:02:44 - [MESSAGE][PASSED] - All options with value 'Not Used' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:02:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available"), "Available", true): All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:02:45 - [MESSAGE][PASSED] - All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:02:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1"), "Available", true): All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:02:46 - [MESSAGE][PASSED] - All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:02:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded"), "Moderate", true): All options with value 'Moderate' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:02:47 - [MESSAGE][PASSED] - All options with value 'Moderate' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:02:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Add to Stock")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:02:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:02:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Reset")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Reset' is clicked on
+
+2022-05-24 19:02:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Reset' is clicked on
+
+2022-05-24 19:02:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral"), "General", true): All options with value 'General' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:02:48 - [MESSAGE][PASSED] - All options with value 'General' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Ladies WearMens WearKids WearGeneral'  using regular expression
+
+2022-05-24 19:02:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_Please select Category firstTravelli_0767cc"), "Footware", true): All options with value 'Footware' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstTravelli_0767cc'  using regular expression
+
+2022-05-24 19:02:55 - [MESSAGE][PASSED] - All options with value 'Footware' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_Please select Category firstTravelli_0767cc'  using regular expression
+
+2022-05-24 19:02:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL"), "XL", true): All options with value 'XL' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:02:56 - [MESSAGE][PASSED] - All options with value 'XL' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_General3S2SXSSMLXL2XL3XL'  using regular expression
+
+2022-05-24 19:02:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used"), "Used in Good Condition", true): All options with value 'Used in Good Condition' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:02:56 - [MESSAGE][PASSED] - All options with value 'Used in Good Condition' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_UsedUsed in good conditionNot Used'  using regular expression
+
+2022-05-24 19:02:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available"), "Available", true): All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:02:57 - [MESSAGE][PASSED] - All options with value 'Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available'  using regular expression
+
+2022-05-24 19:02:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1"), "Not Available", true): All options with value 'Not Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:02:58 - [MESSAGE][PASSED] - All options with value 'Not Available' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_AvailableNot Available_1'  using regular expression
+
+2022-05-24 19:02:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded"), "Unbranded", true): All options with value 'Unbranded' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:02:59 - [MESSAGE][PASSED] - All options with value 'Unbranded' are selected in object 'Object Repository/Add stock/Page_SwapMate/select_LuxuriousWell KnownModerateUnbranded'  using regular expression
+
+2022-05-24 19:02:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/button_Add to Stock")): Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/button_Add to Stock' is clicked on
+
+2022-05-24 19:02:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/p_Total Points  1392")): Object: 'Object Repository/Add stock/Page_SwapMate/p_Total Points  1392' is clicked on
+
+2022-05-24 19:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/p_Total Points  1392' is clicked on
+
+2022-05-24 19:02:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/span_")): Object: 'Object Repository/Add stock/Page_SwapMate/span_' is clicked on
+
+2022-05-24 19:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/span_' is clicked on
+
+2022-05-24 19:03:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/td_Ladies Skirts")): Object: 'Object Repository/Add stock/Page_SwapMate/td_Ladies Skirts' is clicked on
+
+2022-05-24 19:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/td_Ladies Skirts' is clicked on
+
+2022-05-24 19:03:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/td_540")): Object: 'Object Repository/Add stock/Page_SwapMate/td_540' is clicked on
+
+2022-05-24 19:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Add stock/Page_SwapMate/td_540' is clicked on
+
+2022-05-24 19:03:01 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Add stock/Page_SwapMate/td_Mens Denims")): Unable to click on object 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add stock items.run(Add stock items:149)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653399053396.run(TempTestSuite1653399053396.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims' located by '//td[(text() = concat("Mens" , "'" , " Denims") or . = concat("Mens" , "'" , " Denims"))]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1653062672208.run(Script1653062672208.groovy:149)
+	... 13 more
+)
+
+2022-05-24 19:03:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //td[(text() = concat("Mens" , "'" , " Denims") or . = concat("Mens" , "'" , " Denims"))]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-24 19:03:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add stock items.run(Add stock items:149)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653399053396.run(TempTestSuite1653399053396.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims' located by '//td[(text() = concat("Mens" , "'" , " Denims") or . = concat("Mens" , "'" , " Denims"))]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1653062672208.run(Script1653062672208.groovy:149)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\prabh\\Documents\\GitHub\\SwapMateAutomation\\Reports\\20220524_190053\\SwapMate_Web_TestSuite\\20220524_190053\\1653399212412.png]]]]></system-out>
+         <system-err><![CDATA[2022-05-24 19:01:52 - [TEST_CASE][FAILED] - Test Cases/Admin/Add stock items: Test Cases/Admin/Add stock items FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add stock items.run(Add stock items:149)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653399053396.run(TempTestSuite1653399053396.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims' located by '//td[(text() = concat("Mens" , "'" , " Denims") or . = concat("Mens" , "'" , " Denims"))]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Search stock items" time="9.417" classname="Test Cases/Admin/Search stock items" status="PASSED">
+         <system-out><![CDATA[2022-05-24 19:03:32 - [TEST_CASE][PASSED] - Test Cases/Admin/Search stock items: Test Cases/Admin/Search stock items
+
+2022-05-24 19:03:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Stock_Search/Page_SwapMate/i_New_right fas fa-angle-left")): Object: 'Object Repository/Stock_Search/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Stock_Search/Page_SwapMate/i_New_right fas fa-angle-left' is clicked on
+
+2022-05-24 19:03:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Stock_Search/Page_SwapMate/i_New_right fas fa-angle-left_1")): Object: 'Object Repository/Stock_Search/Page_SwapMate/i_New_right fas fa-angle-left_1' is clicked on
+
+2022-05-24 19:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Stock_Search/Page_SwapMate/i_New_right fas fa-angle-left_1' is clicked on
+
+2022-05-24 19:03:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Stock_Search/Page_SwapMate/a_Manage Stock")): Object: 'Object Repository/Stock_Search/Page_SwapMate/a_Manage Stock' is clicked on
+
+2022-05-24 19:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Stock_Search/Page_SwapMate/a_Manage Stock' is clicked on
+
+2022-05-24 19:03:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Stock_Search/Page_SwapMate/label_Search"), 0): Object 'Object Repository/Stock_Search/Page_SwapMate/label_Search' is present
+
+2022-05-24 19:03:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/Stock_Search/Page_SwapMate/label_Search' is present
+
+2022-05-24 19:03:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Stock_Search/Page_SwapMate/input_Search_form-control form-control-sm"), "XL"): Text 'XL' is set on object 'Object Repository/Stock_Search/Page_SwapMate/input_Search_form-control form-control-sm'
+
+2022-05-24 19:03:40 - [MESSAGE][PASSED] - Text 'XL' is set on object 'Object Repository/Stock_Search/Page_SwapMate/input_Search_form-control form-control-sm'
+
+2022-05-24 19:03:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Stock_Search/Page_SwapMate/div_Showing 1 to 5 of 5 entries (filtered f_9f68b9_1"), 0): Object 'Object Repository/Stock_Search/Page_SwapMate/div_Showing 1 to 5 of 5 entries (filtered f_9f68b9_1' is present
+
+2022-05-24 19:03:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:03:41 - [MESSAGE][PASSED] - Object 'Object Repository/Stock_Search/Page_SwapMate/div_Showing 1 to 5 of 5 entries (filtered f_9f68b9_1' is present
+
+2022-05-24 19:03:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Stock_Search/Page_SwapMate/input_Search_form-control form-control-sm"), ""): Text '' is set on object 'Object Repository/Stock_Search/Page_SwapMate/input_Search_form-control form-control-sm'
+
+2022-05-24 19:03:41 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Stock_Search/Page_SwapMate/input_Search_form-control form-control-sm'
+
+2022-05-24 19:03:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Stock_Search/Page_SwapMate/div_Showing 1 to 11 of 11 entries"), 0): Object 'Object Repository/Stock_Search/Page_SwapMate/div_Showing 1 to 11 of 11 entries' is present
+
+2022-05-24 19:03:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 19:03:42 - [MESSAGE][PASSED] - Object 'Object Repository/Stock_Search/Page_SwapMate/div_Showing 1 to 11 of 11 entries' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-24 19:00:55 - [TEST_SUITE][FAILED] - SwapMate_Web_TestSuite: Test Cases/Admin/Add stock items FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add stock items.run(Add stock items:149)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653399053396.run(TempTestSuite1653399053396.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims' located by '//td[(text() = concat("Mens" , "'" , " Denims") or . = concat("Mens" , "'" , " Denims"))]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-05-24 19:00:55 - [TEST_SUITE][FAILED] - SwapMate_Web_TestSuite: Test Cases/Admin/Add stock items FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add stock items.run(Add stock items:149)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653399053396.run(TempTestSuite1653399053396.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add stock/Page_SwapMate/td_Mens Denims' located by '//td[(text() = concat("Mens" , "'" , " Denims") or . = concat("Mens" , "'" , " Denims"))]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

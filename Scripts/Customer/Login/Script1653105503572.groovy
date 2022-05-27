@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\prabh\\Documents\\GitHub\\SwapMateMobile\\build\\app\\outputs\\flutter-apk\\app.apk', 
+Mobile.startApplication('C:\\Users\\prabh\\Documents\\GitHub\\SwapMateClientMobileApplication\\build\\app\\outputs\\flutter-apk\\app.apk', 
     true)
 
 Mobile.tapAndHold(findTestObject('Object Repository/Customer/Login/android.widget.Button (1)'), 0, 0)
